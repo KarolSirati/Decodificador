@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    background: #F3F5FC;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+.logoAlura {
+    margin-left: 300px;
+    padding-top: 60px;
+    width: 5%;
+}
+
+main {
+    display: flex;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    margin-left: 250px;
+}
+
+.text-area {
+    border: none;
+    color: #0A3871;
+    margin-top: 50px;
+    margin-left: 200px;
+    text-transform: lowercase;
+}
+
+::placeholder { color: #0A3871;}
+    .areaTexto:focus{
+        outline: none;
+    }
+
+.mensagem {
+    background: white;
+    background-image: url(/imagens/boneco.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 24px;
+    color:#0A3871;
+    padding-left: 10px;
+    margin-top: -25px;
+    position: fixed;
+}
+.mensagem:focus {
+    outline: none;
+}
+
+.informacao {
+    color: #495057;
+    font-size: 18px;
+    margin-top: 300px;
+}
+
+.imagemValidacao {
+    margin: 0px 0px -34px 180px;
+}
+
+.p1 {
+    font-size: 12px;
+    margin-left: 200px;
+    margin-top: 10px;
+}
+
+.botoes {
+    display: flex;
+    margin-top: 18px;
+    margin-left: 170px;
+}
+
+.btn-desencriptar {
+    font-size: 20px;
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+}
+
+.btn-encriptar {
+    font-size: 20px;
+    background: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+}
+
+.btn-copiar {
+    font-size: 20px;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color:#0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 5px;
+    margin-top: 530px;
+    position: absolute;
+    width: 330px;
+}
+
+.informacao {
+    color: #495057;
+    font-size: 18px;
+    margin-top: 300px;
+}
